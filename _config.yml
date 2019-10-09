@@ -8,7 +8,7 @@ title:               Murat's blog
 tagline:             'NA'
 description:         'description_here'
 url:                 http://mshagirov.github.io
-baseurl:             'http://mshagirov.github.io'
+baseurl:             ''
 paginate:            5
 
 # About/contact

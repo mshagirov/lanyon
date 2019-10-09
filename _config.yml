@@ -8,11 +8,11 @@ title:               Murat's blog
 tagline:             'NA'
 description:         'description_here'
 url:                 http://mshagirov.github.io
-baseurl:             'baseurl__'
+baseurl:             'http://mshagirov.github.io'
 paginate:            5
 
 # About/contact
 author:
   name:              Murat Shagirov
   url:               https://twitter.com/mshagirov
-  email:             murat.shagirov (at) u.nus.edu
+  email:             murat.shagirov(at)u.nus.edu

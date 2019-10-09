@@ -16,6 +16,6 @@ title: Presentations, notebooks, and everything
   or
   [[nbviewer](https://nbviewer.jupyter.org/github/mshagirov/mshagirov.github.io/blob/master/_notebooks/N2V_2D_example_combined.ipynb)]
   or
-  [[go to repository](_notebooks/N2V_2D_example_combined.ipynb)]
+  [[go to repository](https://github.com/mshagirov/mshagirov.github.io/blob/master/_notebooks/N2V_2D_example_combined.ipynb)]
 
 2 - "CARE"?

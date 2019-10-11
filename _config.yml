@@ -5,9 +5,12 @@ permalink:           pretty
 
 # Setup
 title:               Murat's blog
+email:               murat.shagirov(at)u.nus.edu
 tagline:             'NA'
-description:         'description_here'
+description:         'things to share'
 url:                 http://mshagirov.github.io
+twitter_username:    mshagirov
+github_username:     mshagirov
 baseurl:             ''
 paginate:            5
 
@@ -16,3 +19,13 @@ author:
   name:              Murat Shagirov
   url:               https://twitter.com/mshagirov
   email:             murat.shagirov(at)u.nus.edu
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Presentations, notebooks, and everything
-
+permalink: /shared-notes/
 ---
 
 

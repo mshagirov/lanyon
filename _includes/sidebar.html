@@ -57,10 +57,12 @@
         </span>
       <span class="username">{{ site.twitter_username }}</span>
     </a>
-    <a class="sidebar-nav-item" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <div class="sidebar-item">{{ site.email }}</div>
     
     {% comment %}
     Use this to link another page
+    <a class="sidebar-nav-item" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    or
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/presentations/">Presentations</a>
     {% endcomment %}
     

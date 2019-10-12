@@ -18,4 +18,5 @@ permalink: /shared-notes/
   or
   [[go to repository](https://github.com/mshagirov/mshagirov.github.io/blob/master/_notebooks/N2V_2D_example_combined.ipynb)]
 
-2 - "CARE"?
+2 - "CARE" 
+[[Colab](https://colab.research.google.com/github/mshagirov/mshagirov.github.io/blob/master/_notebooks/care_example_denoising3D.ipynb)]

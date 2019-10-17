@@ -1,17 +1,23 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
 
 # Setup
 title:               Murat's blog
 email:               murat.shagirov(at)u.nus.edu
 tagline:             'Procrastinatron 3000'
 description:         'things to share'
+avatar: https://avatars3.githubusercontent.com/u/4118748?s=400&u=f9d469327f1a35c08b521779d52a7f6dd0a00709&v=4
 url:                 http://mshagirov.github.io
 twitter_username:    mshagirov
 github_username:     mshagirov
-baseurl:             ''
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
+
+# !! You don't need to change any of the configuration flags below !!
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           /:title/
 paginate:            5
 
 # About/contact
@@ -20,12 +26,35 @@ author:
   url:               https://twitter.com/mshagirov
   email:             murat.shagirov(at)u.nus.edu
 
+# Jekyll 3 only supports Kramdown for Markdown
 # Build settings
 markdown: kramdown
 permalink: pretty
-
 highlighter: rouge
+# Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  auto_ids: true
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+  auto_ids: true
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

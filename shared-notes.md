@@ -8,6 +8,7 @@ permalink: /shared-notes/
 ## Contents
 
 - [Notebooks with annotations](#notebooks-with-annotations)
+
 ---
 
 ## Notebooks with annotations (for colab):

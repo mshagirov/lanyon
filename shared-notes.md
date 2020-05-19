@@ -19,4 +19,4 @@ permalink: /shared-notes/
 A. Krull, _et al._, [paper](https://arxiv.org/abs/1811.10980).
 
 
-3 - [CARE](https://colab.research.google.com/github/mshagirov/mshagirov.github.io/blob/master/_notebooks/care_example_denoising3D.ipynb) (no annotations yet, just a copy of a 3D example from CARE notebooks). M. Weigert, _et al._, _Nature Methods_ __15__, 1090–1097 (2018).
+3 - [CARE](https://colab.research.google.com/github/mshagirov/mshagirov.github.io/blob/master/_notebooks/care_example_denoising3D.ipynb) (just a copy of a 3D example). M. Weigert, _et al._, _Nature Methods_ __15__, 1090–1097 (2018).

@@ -7,11 +7,11 @@ permalink: /shared-notes/
 
 ## Contents
 
-- [Notebooks with annotations](#notebooks-with-annotations)
+- [Notebooks](#notebooks)
 
 ---
 
-## Notebooks with annotations (for colab):
+## Notebooks (for colab):
 1 - [PyTorch Basics Tutorial](https://colab.research.google.com/github/mshagirov/mshagirov.github.io/blob/master/_notebooks/ML_journal_club_01.ipynb) [[repo](/_notebooks/ML_journal_club_01.ipynb)]
 
 2 - [Noise2Void](https://colab.research.google.com/github/mshagirov/mshagirov.github.io/blob/master/_notebooks/N2V_2D_example_combined.ipynb)
